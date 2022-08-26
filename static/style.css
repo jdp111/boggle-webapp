@@ -1,0 +1,58 @@
+.piece{
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(234, 209, 209);
+    font-size: 30px;
+    border-radius: 10px;
+    block-size: 65px;
+    inline-size: 65px;
+
+    text-align: center;
+
+}
+
+.board{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+header{
+    font-size: 50px;
+    font-style: bolder;
+    text-align: center;
+}
+
+#wordsfound{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.scoreboard,.score{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.scoreboard{
+    margin-left: 30%;
+}
+
+#form{
+    margin-left: 40%;
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+button{
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+#col1, #col2, #col3 {
+    float: left;
+    width: 33.33%;
+    font-size: 20px;
+  }
+

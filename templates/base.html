@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>boggle</title>
+<header>Boggle</header>
+<link rel="stylesheet" href="/static/style.css">
+<span class = "scoreboard"> Score:</span>
+<span class = 'score'>0</span>
+</head>
+
+
+<body>
+
+<table class = "board">
+    {% for row in board %}
+    <tr class = "row">
+        {% for letter in row %}
+        <td class = "piece"> {{letter}}</td>
+        {% endfor %}
+        </tr>
+        {% endfor %}
+</table>
+
+<input id = 'form' type="text" placeholder="new word" name="word">
+<button id = 'subbut'>submit</button>
+
+<div id = "wordsfound">
+    <div id = "col1"></div>
+    <div id = "col2"></div>
+    <div id = "col3"></div>
+    <div id = "col4"></div>
+
+</div>
+
+
+
+
+
+<script src="https://unpkg.com/jquery"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src = "/static/gameInit.js"></script>
+
+</body>
+</html>
